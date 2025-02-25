@@ -1,6 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --color-core1: #593E67;
+  --color-core2: #84495F;
+  --color-core3: #DE741C;
+  --color-core4: #161616;
+  --color-core5: #2f2235;
+}
+
 * {
   font-family: "Quantico", serif;
+}
+
+/* For Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
 }
