@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@tailwindcss/vite':
-        specifier: ^4.0.8
-        version: 4.0.8(vite@6.1.1(jiti@2.4.2)(lightningcss@1.29.1))
       axios:
         specifier: ^1.7.9
         version: 1.7.9
@@ -23,13 +20,13 @@ importers:
       react-router:
         specifier: ^7.2.0
         version: 7.2.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      tailwindcss:
-        specifier: ^4.0.8
-        version: 4.0.8
     devDependencies:
       '@eslint/js':
         specifier: ^9.20.0
         version: 9.21.0
+      '@tailwindcss/vite':
+        specifier: ^4.0.8
+        version: 4.0.8(vite@6.1.1(jiti@2.4.2)(lightningcss@1.29.1))
       '@types/react':
         specifier: ^19.0.10
         version: 19.0.10
@@ -51,6 +48,9 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
+      tailwindcss:
+        specifier: ^4.0.8
+        version: 4.0.8
       typescript:
         specifier: ~5.7.2
         version: 5.7.3
